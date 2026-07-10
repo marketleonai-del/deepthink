@@ -23,18 +23,11 @@
 ### 本地使用
 
 ```bash
-# 克隆仓库
 git clone https://github.com/marketleonai-del/deepthink.git
 cd deepthink
-
-# 安装依赖
 npm install
-
-# 启动开发服务器
 npm run dev
 ```
-
-然后打开浏览器访问 `http://localhost:5173`
 
 ### 配置 API Key
 
@@ -89,35 +82,6 @@ npm run dev
 
 ---
 
-## 项目结构
-
-```
-src/
-├── lib/
-│   ├── api.ts          # DeepSeek API 封装
-│   ├── data.ts         # 79种思维模式 + 12位幕僚数据
-│   └── prompts.ts      # 系统提示词
-├── components/
-│   └── ApiKeyModal.tsx # API Key 设置弹窗
-├── pages/
-│   ├── QuickThink.tsx  # 快速思考模式
-│   └── Boardroom.tsx   # 12人私董会模式
-├── App.tsx             # 主应用 + 路由
-└── main.tsx            # 入口
-```
-
----
-
-## 核心理论基础
-
-- **NGT 名义群体法**：12位幕僚并行独立生成观点，彻底解决锚定效应
-- **Delphi 法**：多轮辩论传递完整推理过程
-- **Pre-Mortem 事前尸检法**：假设项目已失败，多识别30%的致命风险
-- **贝叶斯更新理论**：每轮会话记录信念变化，实现决策能力复利增长
-- **双钻石设计模型**：先发散再收敛搞对问题，再发散再收敛搞对答案
-
----
-
 ## 部署
 
 ### Vercel（推荐）
@@ -130,12 +94,6 @@ src/
 npm run build
 # 将 dist/ 目录部署到任何静态托管服务
 ```
-
----
-
-## Star History
-
-如果这个项目对你有帮助，请给个 Star ⭐
 
 ---
 
